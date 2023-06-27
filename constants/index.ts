@@ -72,17 +72,22 @@ export const socials = [
   {
     name: 'twitter',
     url: '/twitter.svg',
+    href: 'https://www.twitter.com/jBhaveek',
   },
   {
     name: 'linkedin',
     url: '/linkedin.svg',
+    href: 'https://www.linkedin.com/in/bhaveek/',
   },
   {
     name: 'instagram',
     url: '/instagram.svg',
+    href: 'https://www.instagram.com/bhaveek321',
   },
   {
     name: 'facebook',
     url: '/facebook.svg',
+
+    href: '',
   },
 ];
