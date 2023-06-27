@@ -19,7 +19,12 @@ export const navVariants = {
   },
 };
 
-export const slideIn = (direction, type, delay, duration) => ({
+export const slideIn: any = (
+  direction: any,
+  type: any,
+  delay: any,
+  duration: any,
+) => ({
   hidden: {
     x: direction === 'left' ? '-100%' : direction === 'right' ? '100%' : 0,
     y: direction === 'up' ? '100%' : direction === 'down' ? '100%' : 0,
@@ -36,7 +41,10 @@ export const slideIn = (direction, type, delay, duration) => ({
   },
 });
 
-export const staggerContainer = (staggerChildren: any, delayChildren: any) => ({
+export const staggerContainer: any = (
+  staggerChildren: any,
+  delayChildren: any,
+) => ({
   hidden: {},
   show: {
     transition: {
@@ -46,7 +54,7 @@ export const staggerContainer = (staggerChildren: any, delayChildren: any) => ({
   },
 });
 
-export const textVariant = (delay) => ({
+export const textVariant: any = (delay: any) => ({
   hidden: {
     y: 50,
     opacity: 0,
@@ -87,7 +95,12 @@ export const textVariant2 = {
   },
 };
 
-export const fadeIn = (direction, type, delay, duration) => ({
+export const fadeIn: any = (
+  direction: any,
+  type: any,
+  delay: any,
+  duration: any,
+) => ({
   hidden: {
     x: direction === 'left' ? 100 : direction === 'right' ? -100 : 0,
     y: direction === 'up' ? 100 : direction === 'down' ? -100 : 0,
@@ -106,7 +119,7 @@ export const fadeIn = (direction, type, delay, duration) => ({
   },
 });
 
-export const planetVariants = (direction) => ({
+export const planetVariants: any = (direction: any) => ({
   hidden: {
     x: direction === 'left' ? '-100%' : '100%',
     rotate: 120,
@@ -122,7 +135,7 @@ export const planetVariants = (direction) => ({
   },
 });
 
-export const zoomIn = (delay, duration) => ({
+export const zoomIn: any = (delay: any, duration: any) => ({
   hidden: {
     scale: 0,
     opacity: 0,
